@@ -1,7 +1,7 @@
 package filesearcher
 
 import java.io.File
-import org.scalatest.{FunSpec}
+import org.scalatest.FunSpec
 
 
 /**

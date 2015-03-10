@@ -1,4 +1,4 @@
 language: scala
 scala:
   - 2.11.6
-script: "sbt clean coveralls test"
+script: "sbt clean test"
