@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="default"
 		confs="default"
-		date="20150310101017"/>
+		date="20150310103028"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="0.13.5" status="release" pubdate="20140527094603" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
@@ -21,44 +21,35 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_9_3">
-			<revision name="0.13.5" status="release" pubdate="20140527094258" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="44">
+			<revision name="0.13.5" status="release" pubdate="20140527094258" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="43">
 				<metadata-artifact status="no" details="" size="1507" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\precompiled-2_9_3\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/precompiled-2_9_3/0.13.5/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="precompiled-2_9_3" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30055" time="650" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\precompiled-2_9_3\srcs\precompiled-2_9_3-0.13.5-sources.jar">
+					<artifact name="precompiled-2_9_3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30055" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\precompiled-2_9_3\srcs\precompiled-2_9_3-0.13.5-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.5/srcs/precompiled-2_9_3-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_9_2">
-			<revision name="0.13.5" status="release" pubdate="20140527094258" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="43">
+			<revision name="0.13.5" status="release" pubdate="20140527094258" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="42">
 				<metadata-artifact status="no" details="" size="1507" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\precompiled-2_9_2\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/precompiled-2_9_2/0.13.5/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="precompiled-2_9_2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30055" time="666" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\precompiled-2_9_2\srcs\precompiled-2_9_2-0.13.5-sources.jar">
+					<artifact name="precompiled-2_9_2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30055" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\precompiled-2_9_2\srcs\precompiled-2_9_2-0.13.5-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.5/srcs/precompiled-2_9_2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_8_2">
-			<revision name="0.13.5" status="release" pubdate="20140527094258" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="42">
+			<revision name="0.13.5" status="release" pubdate="20140527094258" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="41">
 				<metadata-artifact status="no" details="" size="1513" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\precompiled-2_8_2\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/precompiled-2_8_2/0.13.5/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="precompiled-2_8_2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30055" time="841" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\precompiled-2_8_2\srcs\precompiled-2_8_2-0.13.5-sources.jar">
+					<artifact name="precompiled-2_8_2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30055" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\precompiled-2_8_2\srcs\precompiled-2_8_2-0.13.5-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.5/srcs/precompiled-2_8_2-sources.jar"/>
 					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.scala-sbt" name="compiler-interface">
-			<revision name="0.13.5" status="release" pubdate="20140527094306" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="41">
-				<metadata-artifact status="no" details="" size="1862" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\compiler-interface\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/compiler-interface/0.13.5/ivys/ivy.xml"/>
-				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="compiler-interface" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
 				</artifacts>
 			</revision>
 		</module>
@@ -78,7 +69,7 @@
 				<metadata-artifact status="no" details="" size="1670" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\logic\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/logic/0.13.5/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="logic" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4977" time="576" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\logic\srcs\logic-0.13.5-sources.jar">
+					<artifact name="logic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4977" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\logic\srcs\logic-0.13.5-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.5/srcs/logic-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -89,7 +80,7 @@
 				<metadata-artifact status="no" details="" size="2708" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\main-settings\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/main-settings/0.13.5/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="main-settings" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30069" time="930" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\main-settings\srcs\main-settings-0.13.5-sources.jar">
+					<artifact name="main-settings" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30069" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\main-settings\srcs\main-settings-0.13.5-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main-settings/0.13.5/srcs/main-settings-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -100,7 +91,7 @@
 				<metadata-artifact status="no" details="" size="2189" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\command\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/command/0.13.5/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="command" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="20844" time="692" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\command\srcs\command-0.13.5-sources.jar">
+					<artifact name="command" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20844" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\command\srcs\command-0.13.5-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/command/0.13.5/srcs/command-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -111,7 +102,7 @@
 				<metadata-artifact status="no" details="" size="1698" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\apply-macro\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/apply-macro/0.13.5/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="apply-macro" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="13362" time="632" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\apply-macro\srcs\apply-macro-0.13.5-sources.jar">
+					<artifact name="apply-macro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13362" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\apply-macro\srcs\apply-macro-0.13.5-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/apply-macro/0.13.5/srcs/apply-macro-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -133,7 +124,7 @@
 				<metadata-artifact status="no" details="" size="1796" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\testing\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/testing/0.13.5/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="testing" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9711" time="546" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\testing\srcs\testing-0.13.5-sources.jar">
+					<artifact name="testing" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9711" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\testing\srcs\testing-0.13.5-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/testing/0.13.5/srcs/testing-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -144,7 +135,7 @@
 				<metadata-artifact status="no" details="" size="1312" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\test-agent\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/test-agent/0.13.5/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="test-agent" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6334" time="537" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\test-agent\srcs\test-agent-0.13.5-sources.jar">
+					<artifact name="test-agent" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6334" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\test-agent\srcs\test-agent-0.13.5-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/test-agent/0.13.5/srcs/test-agent-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -156,7 +147,7 @@
 				<metadata-artifact status="no" details="" size="2580" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\test-interface\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/test-interface/1.0/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="test-interface" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="18792" time="537" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\test-interface\srcs\test-interface-1.0-sources.jar">
+					<artifact name="test-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18792" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\test-interface\srcs\test-interface-1.0-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -167,7 +158,7 @@
 				<metadata-artifact status="no" details="" size="1390" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\tracking\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/tracking/0.13.5/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="tracking" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4936" time="657" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\tracking\srcs\tracking-0.13.5-sources.jar">
+					<artifact name="tracking" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4936" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\tracking\srcs\tracking-0.13.5-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tracking/0.13.5/srcs/tracking-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -178,7 +169,7 @@
 				<metadata-artifact status="no" details="" size="1495" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\cache\ivy-0.13.5.xml" searched="false" origin-is-local="false" origin-location="file:////C:/Work/splay/activator-1.3.2/repository/org.scala-sbt/cache/0.13.5/ivys/ivy.xml"/>
 				<caller organisation="default" name="hello-scala$sources_2.11" conf="default" rev="0.13.5" rev-constraint-default="0.13.5" rev-constraint-dynamic="0.13.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="cache" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7074" time="542" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\cache\srcs\cache-0.13.5-sources.jar">
+					<artifact name="cache" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7074" time="0" location="C:\Users\liviu.ignat.OFFICE\.ivy2\cache\org.scala-sbt\cache\srcs\cache-0.13.5-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cache/0.13.5/srcs/cache-sources.jar"/>
 					</artifact>
 				</artifacts>

@@ -4,7 +4,7 @@
 		module="hello-scala_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150310101016"
+		publication="20150310103025"
 	>
 		<description>
 		hello-scala
@@ -32,5 +32,7 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.6" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.1.0" conf="test->default(compile)"/>
+		<dependency org="com.novocode" name="junit-interface" rev="0.9" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
