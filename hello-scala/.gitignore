@@ -9,17 +9,16 @@
 !.idea/vcs.xml
 !.idea/uiDesigner.xml
 project/target
+target/*
 /classes
 /dist
 /out
 /SDK/*SDK
-/target/*
 /*.bat
 *.class
 out
 build
 .DS_Store
 *~
-target/*
 
 testdata/debugger

@@ -6,9 +6,10 @@ package filesearcher
 class FilterChecker(filter: String) {
   def matches(content: String) = content.contains(filter)
 
-  def findMatchedFiels(fileList: List[FileObject]) = {
+  def findMatchedFiels(fileList: List[IOObject]) = {
     for(fileObject <- fileList
-        if (matches(fileObject.name)))
+      if(fileObject.isInstanceOf[FileObject])
+      if (matches(fileObject.name)))
     yield fileObject
   }
 }

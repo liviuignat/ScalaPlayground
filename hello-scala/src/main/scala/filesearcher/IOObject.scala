@@ -3,5 +3,6 @@ package filesearcher
 /**
  * Created by liviu.ignat on 3/10/2015.
  */
-class FileObject(val name: String) extends IOObject {
+trait IOObject {
+  val name: String
 }
