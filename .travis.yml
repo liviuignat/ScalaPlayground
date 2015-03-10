@@ -1,4 +1,4 @@
 language: scala
 scala:
-  - 2.10.3
-script: "cd ./hello-scala && sbt coveralls"
+  - 2.11.6
+script: "sbt coveralls"
