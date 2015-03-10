@@ -9,7 +9,7 @@ class FilterChecker(filter: String) {
   /*
   * No brackets is named "infix notation"
   * */
-  def findMatchedFiels(fileList: List[IOObject]) =
+  def findMatchedFiles(fileList: List[IOObject]) =
     for(fileObject <- fileList
       if(fileObject.isInstanceOf[FileObject])
       if (matches(fileObject.name)))
