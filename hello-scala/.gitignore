@@ -10,6 +10,7 @@
 !.idea/uiDesigner.xml
 project/target
 target
+/target
 /classes
 /dist
 /out

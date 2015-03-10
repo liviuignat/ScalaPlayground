@@ -8,5 +8,7 @@ libraryDependencies ++= Seq(
   "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test",
   "com.novocode" % "junit-interface" % "0.9" % "test")
 
+ScoverageSbtPlugin.instrumentSettings
+
 CoverallsPlugin.coverallsSettings
     
