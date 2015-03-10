@@ -8,6 +8,7 @@
 .idea/workspace.xml
 !.idea/vcs.xml
 !.idea/uiDesigner.xml
+project/target
 /classes
 /dist
 /out
