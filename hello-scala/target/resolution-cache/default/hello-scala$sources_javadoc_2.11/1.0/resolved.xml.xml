@@ -4,7 +4,7 @@
 		module="hello-scala$sources_javadoc_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150310104716"
+		publication="20150310105852"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

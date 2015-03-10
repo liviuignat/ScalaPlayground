@@ -10,7 +10,7 @@ class FilterCheckerSpec extends FlatSpec {
   "return a list with that file" in {
     val matchingFile = new FileObject("match")
     val listOfFiles = List(new FileObject("random"), matchingFile)
-    var matchedFiles = new FilterChecker("match").findMatchedFiels(listOfFiles)
+    val matchedFiles = new FilterChecker("match").findMatchedFiels(listOfFiles)
 
     assert(matchedFiles == List(matchingFile))
   }

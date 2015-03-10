@@ -11,13 +11,13 @@
 /dist
 /out
 /SDK/*SDK
-/target
+/target/*
 /*.bat
 *.class
 out
 build
 .DS_Store
 *~
-target/
+target/*
 
 testdata/debugger
