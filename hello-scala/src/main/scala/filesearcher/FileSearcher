@@ -1,0 +1,3 @@
+class FileSearcher {
+  val a = 1
+}
