@@ -5,6 +5,6 @@ package filesearcher
  */
 class FilterChecker(matchExpression: String) {
   def findMatchedFiels(fileList: List[FileObject]) = {
-    
+
   }
 }

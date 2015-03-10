@@ -4,7 +4,7 @@
 		module="hello-scala$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150310103027"
+		publication="20150310104714"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
