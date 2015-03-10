@@ -4,7 +4,7 @@
 		module="hello-scala$sources_javadoc_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150310105852"
+		publication="20150310163831"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -28,13 +28,17 @@
 			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scala-library" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.1.0" transitive="false" conf="test->default(compile);test-internal->default(compile)">
-			<artifact name="scalatest_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="scalatest_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.1" transitive="false" conf="test->default(compile);test-internal->default(compile)">
+			<artifact name="scalatest_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scalatest_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.3" transitive="false" conf="test->default(compile);test-internal->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.3/">
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.2" transitive="false" conf="test->default(compile);test-internal->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.2/">
 			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scala-reflect" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.2" transitive="false" conf="test->default(compile);test-internal->default(compile)">
+			<artifact name="scala-xml_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-xml_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.novocode" name="junit-interface" rev="0.9" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="junit-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
